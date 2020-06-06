@@ -61,13 +61,9 @@ let g:mta_filetypes = {
       \}
 
 " for kitty terminal with solarized theme
-highlight VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 set number
 set smartcase
 set ignorecase                                                                  "case insensitive search
 set mouse=a
 set encoding=utf8                                                               "Set encoding
 let g:fzf_preview_window = ''
-
-set background=dark
