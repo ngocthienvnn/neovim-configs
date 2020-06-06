@@ -16,7 +16,6 @@
   "diagnostic.refreshOnInsertMode": true,
   "diagnostic.refreshAfterSave": true,
   "suggest.maxCompleteItemCount": 10,
-  "suggest.detailField":"preview",
   "suggest.snippetIndicator": "►"
 }
 
