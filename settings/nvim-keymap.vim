@@ -119,3 +119,7 @@ nmap sk :SplitjoinJoin<cr>
 nmap <silent> ,t :GFiles<CR>
 nmap <silent> ,r :FZF<CR>
 
+noremap <silent> <M-Left> :vertical resize +5<CR>
+noremap <silent> <M-Right> :vertical resize -5<CR>
+noremap <silent> <M-Up> :resize -5<CR>
+noremap <silent> <M-Down> :resize +5<CR>
