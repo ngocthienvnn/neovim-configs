@@ -1,7 +1,7 @@
 filetype plugin on
 filetype plugin indent on
 
-autocmd BufEnter * :set scroll=10
+" autocmd BufEnter * :set scroll=10
 syntax on
 
 set encoding=UTF-8
