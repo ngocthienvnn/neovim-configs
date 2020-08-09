@@ -36,3 +36,8 @@ set encoding=utf8                                                               
 xnoremap p pgvy
 let g:fzf_preview_window = ''
 autocmd Filetype vue setlocal sw=3 ts=3
+
+set title
+
+
+
