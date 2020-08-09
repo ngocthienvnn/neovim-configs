@@ -17,7 +17,6 @@ set rtp+=~/.fzf
 
 set foldmethod=manual
 
-nnoremap <silent> ,b :Buffers<cr>
 " let g:javascript_plugin_jsdoc = 1
 let g:mta_filetypes = {
       \ 'html' : 1,

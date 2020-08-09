@@ -152,3 +152,7 @@ function! DoPrettyXML()
   exe "set ft=" . l:origft
 endfunction
 command! Xml call DoPrettyXML()
+
+
+nmap <F12> :TagbarToggle<CR>
+nnoremap <silent> ,b :Buffers<cr>
