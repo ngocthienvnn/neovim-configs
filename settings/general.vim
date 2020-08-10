@@ -39,5 +39,5 @@ autocmd Filetype vue setlocal sw=3 ts=3
 
 set title
 
-
+let g:mapleader=','
 
