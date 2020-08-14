@@ -61,17 +61,6 @@ map ,` ysiw`
 "Go to last edit location with ,.
 nnoremap ,. '.
 
-" ==== NERD tree
-" Open the project tree and expose current file in the nerdtree with Ctrl-\
-" " calls NERDTreeFind iff NERDTree is active, current window contains a modifiable file, and we're not in vimdiff
-function! OpenNerdTree()
-  if &modifiable && strlen(expand('%')) > 0 && !&diff
-    NERDTreeFind
-  else
-    NERDTreeToggle
-  endif
-endfunction
-nn <silent> <C-\> :call OpenNerdTree()<CR>
 
 " ,q to toggle quickfix window (where you have stuff like Ag)
 " ,oq to open it back up (rare)
@@ -116,8 +105,6 @@ nmap ` '
 nmap sj :SplitjoinSplit<cr>
 nmap sk :SplitjoinJoin<cr>
 
-nmap <silent> ,t :GFiles<CR>
-nmap <silent> ,r :FZF<CR>
 
 noremap <silent> <M-Left> :vertical resize +5<CR>
 noremap <silent> <M-Right> :vertical resize -5<CR>
@@ -155,4 +142,3 @@ command! Xml call DoPrettyXML()
 
 
 nmap <F12> :TagbarToggle<CR>
-nnoremap <silent> ,b :Buffers<cr>

@@ -13,7 +13,6 @@ set hlsearch
 set novb
 set belloff=all
 set clipboard=unnamedplus
-set rtp+=~/.fzf
 
 set foldmethod=manual
 
@@ -34,7 +33,6 @@ set ignorecase                                                                  
 set mouse=a
 set encoding=utf8                                                               "Set encoding
 xnoremap p pgvy
-let g:fzf_preview_window = ''
 autocmd Filetype vue setlocal sw=3 ts=3
 
 set title
