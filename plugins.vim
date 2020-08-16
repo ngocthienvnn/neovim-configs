@@ -1,4 +1,4 @@
-Plug 'scrooloose/nerdtree'
+" Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'tomtom/tcomment_vim'
@@ -20,3 +20,4 @@ Plug 'wellle/targets.vim'
 Plug 'sainnhe/gruvbox-material'
 Plug 'vim-vdebug/vdebug'
 Plug 'ryanoasis/vim-devicons'
+Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
