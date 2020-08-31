@@ -21,3 +21,4 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'vim-vdebug/vdebug'
 Plug 'ryanoasis/vim-devicons'
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
+Plug 'hardcoreplayers/oceanic-material'

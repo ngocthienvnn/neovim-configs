@@ -2,10 +2,13 @@
 set termguicolors
 " let &t_8f = "\e[38;2;%lu;%lu;%lum"
 " let &t_8b = "\e[48;2;%lu;%lu;%lum"
-set background=dark
-colorscheme solarized8_flat
 
-let g:airline_theme='base16_solarized'
+let g:oceanic_material_background='ocean'
+set background=dark
+colorscheme oceanic_material
+
+
+let g:airline_theme='solarized_flood'
 let g:airline#extensions#tagbar#enabled = 0
 
 
