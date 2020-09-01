@@ -4,8 +4,12 @@ set termguicolors
 " let &t_8b = "\e[48;2;%lu;%lu;%lum"
 
 let g:oceanic_material_background='ocean'
+let g:oceanic_material_allow_underline = 1
 set background=dark
 colorscheme oceanic_material
+hi NormalFloat guibg=#1b2b34
+
+
 
 
 let g:airline_theme='solarized_flood'
