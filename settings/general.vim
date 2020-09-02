@@ -4,6 +4,9 @@ filetype plugin indent on
 " autocmd BufEnter * :set scroll=10
 syntax on
 
+setlocal nobackup
+setlocal nowritebackup
+
 set encoding=UTF-8
 set mouse=a
 
