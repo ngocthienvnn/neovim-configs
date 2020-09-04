@@ -1,5 +1,5 @@
 ## Neovim
-Neovim Configuration for web development, the default theme is vim-solarized8.
+Neovim Configuration for web development, the default theme is oceanic-material with custom background/foreground color: #002b36
 
 ## 1. Installation
 1. Follow this link to install vim-plug: https://github.com/junegunn/vim-plug
@@ -44,6 +44,7 @@ Open Neovim, enter those commands to install Coc plugins:
 + vdebug
 + vim-devicons
 + chadtree
++ oceanic-material
 
 ## 3. Shortcuts
 ### TComment
