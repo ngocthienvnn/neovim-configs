@@ -8,6 +8,11 @@ let g:oceanic_material_allow_underline = 1
 set background=dark
 colorscheme oceanic_material
 hi NormalFloat guibg=#1b2b34
+hi Normal ctermfg=223 ctermbg=235 guifg=#6a71cc guibg=#002b36
+" hi Normal ctermfg=223 ctermbg=235 guifg=#6a71cc guibg=#002b36
+" guifg=#654735 #839496
+
+  
 
 
 
