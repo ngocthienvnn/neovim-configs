@@ -1,14 +1,13 @@
 "  =============== Solarized =================================================
 set termguicolors
-" let &t_8f = "\e[38;2;%lu;%lu;%lum"
-" let &t_8b = "\e[48;2;%lu;%lu;%lum"
 
 let g:oceanic_material_background='ocean'
-let g:oceanic_material_allow_underline = 1
+let g:oceanic_material_allow_underline = 1 
 set background=dark
 colorscheme oceanic_material
 " custom oceanic_material theme
 if (exists("g:colors_name") && get(g:, 'colors_name') == 'oceanic_material')
+
 	" coc preview popup
 	hi NormalFloat guibg=#1b2b34
 
@@ -19,6 +18,8 @@ if (exists("g:colors_name") && get(g:, 'colors_name') == 'oceanic_material')
 	highlight MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#cb4b16 guibg=NONE
 	let m = matchadd("MyCustomBraces", "[\(\)\{\}\[\\]]")
 
+	" sign columns
+	highlight SignColumn guibg=#002b36
 	" airline theme
 	let g:airline_theme='solarized_flood'
 	let g:airline#extensions#tagbar#enabled = 0
