@@ -22,3 +22,4 @@ Plug 'vim-vdebug/vdebug'
 Plug 'ryanoasis/vim-devicons'
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
 Plug 'hardcoreplayers/oceanic-material'
+Plug 'leafOfTree/vim-vue-plugin'
