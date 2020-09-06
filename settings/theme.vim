@@ -5,11 +5,15 @@ let g:oceanic_material_background='ocean'
 let g:oceanic_material_allow_underline = 1 
 set background=dark
 colorscheme oceanic_material
+let g:oceanic_material_allow_underline = 1 
 " custom oceanic_material theme
 if (exists("g:colors_name") && get(g:, 'colors_name') == 'oceanic_material')
 
 	" coc preview popup
 	hi NormalFloat guibg=#1b2b34
+
+	" Coc underline
+	hi CocInfoHighlight gui=underline
 
 	" background and text color
 	hi Normal ctermfg=223 ctermbg=235 guifg=#6a71cc guibg=#002b36
