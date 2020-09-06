@@ -15,7 +15,7 @@ if (exists("g:colors_name") && get(g:, 'colors_name') == 'oceanic_material')
 	hi Normal ctermfg=223 ctermbg=235 guifg=#6a71cc guibg=#002b36
 
 	" color for braces (,),[,],{,}
-	highlight MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#cb4b16 guibg=NONE
+	:hi MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#cb4b16 guibg=NONE
 	let m = matchadd("MyCustomBraces", "[\(\)\{\}\[\\]]")
 
 	" sign columns
