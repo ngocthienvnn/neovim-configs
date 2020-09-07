@@ -27,8 +27,9 @@ if (exists("g:colors_name") && get(g:, 'colors_name') == 'oceanic_material')
 	" airline theme
 	let g:airline_theme='solarized_flood'
 	let g:airline#extensions#tagbar#enabled = 0
+
+	highlight VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
+	highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
+	highlight Visual gui=NONE term=NONE guifg=NONE guibg=#404040
 endif
 
-highlight VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
-highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
-highlight Visual gui=NONE term=NONE guifg=NONE guibg=#404040
