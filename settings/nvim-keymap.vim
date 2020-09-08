@@ -142,3 +142,9 @@ command! Xml call DoPrettyXML()
 
 
 nmap <F12> :TagbarToggle<CR>
+" Ctrl+s --> save
+" Use CTRL-S for saving, also in Insert mode
+:nnoremap <C-S>     :<C-U>update<CR>
+:vnoremap <C-S>     :<C-U>update<CR>gv
+:cnoremap <C-S>     <C-C>:update<CR>
+:inoremap <C-S>     <C-O>:update<CR>
