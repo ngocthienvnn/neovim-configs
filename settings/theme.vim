@@ -20,7 +20,7 @@ if (exists("g:colors_name") && get(g:, 'colors_name') == 'oceanic_material')
 
 	" color for braces (,),[,],{,}
 	hi MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#cb4b16 guibg=NONE
-	autocmd WinEnter * silent! call matchadd("MyCustomBraces", "[\(\)\{\}\[\\]]")
+	autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\(\)\{\}\[\\]]")
 
 	" sign columns
 	highlight SignColumn guibg=#002b36

@@ -148,3 +148,5 @@ nmap <F12> :TagbarToggle<CR>
 :vnoremap <C-S>     :<C-U>update<CR>gv
 :cnoremap <C-S>     <C-C>:update<CR>
 :inoremap <C-S>     <C-O>:update<CR>
+
+:nnoremap <F2> :source $MYVIMRC<CR>
