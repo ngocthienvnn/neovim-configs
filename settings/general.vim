@@ -42,4 +42,3 @@ set title
 
 let g:mapleader=','
 
-let g:polyglot_disabled = ['autoindent', 'vue']
