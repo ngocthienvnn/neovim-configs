@@ -15,6 +15,7 @@
   "coc.source.around.enable": false,
   "diagnostic.refreshOnInsertMode": true,
   "diagnostic.refreshAfterSave": true,
+  "tsserver.log":"off" ,
   "suggest.maxCompleteItemCount": 10,
   "suggest.snippetIndicator": "►"
 }
