@@ -1,3 +1,4 @@
+let g:polyglot_disabled = ['autoindent', 'vue']
 call plug#begin('~/.config/nvim/bundle')
   source ~/.config/nvim/plugins.vim
 call plug#end()
