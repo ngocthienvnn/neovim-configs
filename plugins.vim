@@ -23,3 +23,4 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
 Plug 'hardcoreplayers/oceanic-material'
 Plug 'leafOfTree/vim-vue-plugin'
+Plug 'kdheepak/lazygit.nvim', { 'branch': 'nvim-v0.4.3' }
