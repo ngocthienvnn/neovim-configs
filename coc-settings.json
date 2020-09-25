@@ -17,6 +17,7 @@
   "diagnostic.refreshAfterSave": true,
   "tsserver.log":"off" ,
   "suggest.maxCompleteItemCount": 10,
-  "suggest.snippetIndicator": "►"
+  "suggest.snippetIndicator": "►",
+  "diagnostic.checkCurrentLine": true
 }
 
