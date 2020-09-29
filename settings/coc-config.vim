@@ -147,4 +147,4 @@ nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 nnoremap <silent> <space>q  :<C-u>CocDiagnostics<CR>
-
+nmap <esc> <esc><Plug>(coc-float-hide)
