@@ -9,6 +9,11 @@ let g:oceanic_material_allow_underline = 1
 " custom oceanic_material theme
 if (exists("g:colors_name") && get(g:, 'colors_name') == 'oceanic_material')
 
+	hi Pmenu guifg=#859900 guibg=#073642 gui=NONE cterm=NONE
+	hi PmenuSbar guifg=NONE guibg=#073642 gui=NONE cterm=NONE
+	hi PmenuSel guifg=#eee8d5 guibg=#586e75 gui=NONE cterm=NONE
+	hi PmenuThumb guifg=NONE guibg=#586e75 gui=NONE cterm=NONE
+
 	" php function
 	hi!  phpFunction ctermfg=111 guifg=#20B2AA
 	hi!  phpMethod ctermfg=111 guifg=#20B2AA
