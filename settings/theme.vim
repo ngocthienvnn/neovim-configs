@@ -1,6 +1,4 @@
-"  =============== Solarized =================================================
 set termguicolors
-
 let g:oceanic_material_background='ocean'
 let g:oceanic_material_allow_underline = 1 
 set background=dark
