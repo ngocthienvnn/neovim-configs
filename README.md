@@ -1,5 +1,7 @@
 ## Neovim
 Neovim Configuration for web development, the default theme is oceanic-material with custom background/foreground color: #002b36
+![image](https://user-images.githubusercontent.com/14000527/96083584-a1d11300-0ee7-11eb-8f59-27e2d05dce48.png)
+
 
 ## 1. Installation
 1. Follow this link to install vim-plug: https://github.com/junegunn/vim-plug
