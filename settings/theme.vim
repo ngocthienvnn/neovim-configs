@@ -41,5 +41,8 @@ if (exists("g:colors_name") && get(g:, 'colors_name') == 'oceanic_material')
 	hi! VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 	hi! LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 	hi! Visual gui=NONE term=NONE guifg=NONE guibg=#404040
+	" Fzf float window
+	
+	let $FZF_DEFAULT_OPTS='--color=fg:#839496,bg:#002b36,hl:#1279e0 --color=fg+:#839496,bg+:#002b36,hl+:#c4c413 --color=info:#afaf87,prompt:#d7005f,pointer:#af5fff --color=marker:#87ff00,spinner:#af5fff,header:#87afaf'
 endif
 
