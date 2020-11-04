@@ -4,9 +4,6 @@ colorscheme oceanic_material
 let g:airline_theme='sol'
 
 " Toast Light Theme
-if (get(g:, 'colors_name') == 'toast' && &background == "dark")
-	hi! Normal ctermfg=223 ctermbg=235 guifg=#e4b781 guibg=#052529
-endif
 if (get(g:, 'colors_name') == 'toast' && &background == "light")
 	let $FZF_DEFAULT_OPTS='--color=fg:#4d4d4c,bg:#eeeeee,hl:#d7005f --color=fg+:#4d4d4c,bg+:#e8e8e8,hl+:#d7005f --color=info:#4271ae,prompt:#8959a8,pointer:#d7005f --color=marker:#4271ae,spinner:#4271ae,header:#4271ae'
 
@@ -50,7 +47,7 @@ if (get(g:, 'colors_name') == 'oceanic_material')
 	autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\->\:\?\(\)\{\}\[\\]]")
 
 	" sign columns
-	hi! SignColumn guibg=#002b36
+	hi! SignColumn guibg=#052529
 	" airline theme
 	let g:airline_theme='solarized_flood'
 	let g:airline#extensions#tagbar#enabled = 0
@@ -60,6 +57,6 @@ if (get(g:, 'colors_name') == 'oceanic_material')
 	hi! Visual gui=NONE term=NONE guifg=NONE guibg=#404040
 	" Fzf float window
 
-	let $FZF_DEFAULT_OPTS='--color=fg:#839496,bg:#052529,hl:#1279e0 --color=fg+:#839496,bg+:#002b36,hl+:#c4c413 --color=info:#afaf87,prompt:#d7005f,pointer:#af5fff --color=marker:#87ff00,spinner:#af5fff,header:#87afaf'
+	let $FZF_DEFAULT_OPTS='--color=fg:#839496,bg:#052529,hl:#1279e0 --color=fg+:#839496,bg+:#052529,hl+:#c4c413 --color=info:#afaf87,prompt:#d7005f,pointer:#af5fff --color=marker:#87ff00,spinner:#af5fff,header:#87afaf'
 endif
 
