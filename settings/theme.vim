@@ -6,6 +6,12 @@ let g:airline_theme='sol'
 " Toast Light Theme
 if (get(g:, 'colors_name') == 'toast')
 	let $FZF_DEFAULT_OPTS='--color=fg:#4d4d4c,bg:#eeeeee,hl:#d7005f --color=fg+:#4d4d4c,bg+:#e8e8e8,hl+:#d7005f --color=info:#4271ae,prompt:#8959a8,pointer:#d7005f --color=marker:#4271ae,spinner:#4271ae,header:#4271ae'
+
+
+	" hi! Normal ctermfg=223 ctermbg=235 guibg=#F5F5F5 guifg=#7A3E9D
+	hi!  phpFunction gui=bold guifg=#AA3731
+	hi!  Function gui=bold guifg=#AA3731
+	hi!  phpMethod gui=bold guifg=#AA3731
 endif
 
 " Dark oceanic material dark theme setting
