@@ -1,4 +1,4 @@
-:
+let g:coc_node_args = ['--max-old-space-size=8192']
 set hidden
 
 " Some servers have issues with backup files, see #649.

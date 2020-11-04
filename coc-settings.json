@@ -18,6 +18,7 @@
   "tsserver.log":"off" ,
   "suggest.maxCompleteItemCount": 10,
   "suggest.snippetIndicator": "►",
-  "diagnostic.checkCurrentLine": true
+  "diagnostic.checkCurrentLine": true,
+  "coc.preferences.colorSupport": false
 }
 
