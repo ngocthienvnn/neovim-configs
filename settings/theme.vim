@@ -1,12 +1,16 @@
 set termguicolors
-let g:oceanic_material_background='ocean'
-let g:oceanic_material_allow_underline = 1 
-set background=dark
-colorscheme oceanic_material
-let g:oceanic_material_allow_underline = 1 
-" custom oceanic_material theme
-if (exists("g:colors_name") && get(g:, 'colors_name') == 'oceanic_material')
+set background=light
+colorscheme toast
+let g:airline_theme='sol'
 
+" Toast Light Theme
+if (get(g:, 'colors_name') == 'toast')
+	let $FZF_DEFAULT_OPTS='--color=fg:#4d4d4c,bg:#eeeeee,hl:#d7005f --color=fg+:#4d4d4c,bg+:#e8e8e8,hl+:#d7005f --color=info:#4271ae,prompt:#8959a8,pointer:#d7005f --color=marker:#4271ae,spinner:#4271ae,header:#4271ae'
+endif
+
+" Dark oceanic material dark theme setting
+if (get(g:, 'colors_name') == 'oceanic_material')
+	let g:oceanic_material_allow_underline = 1
 	hi Pmenu guifg=#859900 guibg=#073642 gui=NONE cterm=NONE
 	hi PmenuSbar guifg=NONE guibg=#073642 gui=NONE cterm=NONE
 	hi PmenuSel guifg=#eee8d5 guibg=#586e75 gui=NONE cterm=NONE
@@ -42,7 +46,7 @@ if (exists("g:colors_name") && get(g:, 'colors_name') == 'oceanic_material')
 	hi! LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 	hi! Visual gui=NONE term=NONE guifg=NONE guibg=#404040
 	" Fzf float window
-	
+
 	let $FZF_DEFAULT_OPTS='--color=fg:#839496,bg:#002b36,hl:#1279e0 --color=fg+:#839496,bg+:#002b36,hl+:#c4c413 --color=info:#afaf87,prompt:#d7005f,pointer:#af5fff --color=marker:#87ff00,spinner:#af5fff,header:#87afaf'
 endif
 
