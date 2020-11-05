@@ -1,0 +1,12 @@
+{
+   "intelephense": {
+      "workspace_config": {
+         "intelephense": {
+            "diagnostics": {
+               "undefinedTypes": false
+            }
+         }
+      }
+   }
+}
+
