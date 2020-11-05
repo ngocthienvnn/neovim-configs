@@ -10,7 +10,6 @@ if (get(g:, 'colors_name') == 'toast' && &background == "light")
 	hi! SignColumn guibg=#fbf1c7
 	hi! VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 	hi! LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
-	hi! Visual gui=NONE term=NONE guifg=NONE guibg=#404040
 	" hi! Normal ctermfg=223 ctermbg=235 guibg=#F5F5F5
 	hi! phpFunction gui=bold guifg=#AA3731
 	hi! Function gui=bold guifg=#AA3731
