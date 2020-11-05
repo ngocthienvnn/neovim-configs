@@ -1,13 +1,17 @@
 set termguicolors
-set background=dark
-colorscheme oceanic_material 
-let g:airline_theme='sol'
+set background=light
+colorscheme toast 
 
 " Toast Light Theme
 if (get(g:, 'colors_name') == 'toast' && &background == "light")
 	let $FZF_DEFAULT_OPTS='--color=fg:#4d4d4c,bg:#eeeeee,hl:#d7005f --color=fg+:#4d4d4c,bg+:#e8e8e8,hl+:#d7005f --color=info:#4271ae,prompt:#8959a8,pointer:#d7005f --color=marker:#4271ae,spinner:#4271ae,header:#4271ae'
-
-	hi! Normal ctermfg=223 ctermbg=235 guibg=#F5F5F5
+	let g:airline_theme='sol'
+	hi! Normal ctermfg=223 ctermbg=235 guibg=#fbf1c7
+	hi! SignColumn guibg=#fbf1c7
+	hi! VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
+	hi! LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
+	hi! Visual gui=NONE term=NONE guifg=NONE guibg=#404040
+	" hi! Normal ctermfg=223 ctermbg=235 guibg=#F5F5F5
 	hi! phpFunction gui=bold guifg=#AA3731
 	hi! Function gui=bold guifg=#AA3731
 	hi! Identifier  guifg=#4D2764
