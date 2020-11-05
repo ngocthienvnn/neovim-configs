@@ -4,20 +4,21 @@ colorscheme toast
 
 " Toast Light Theme
 if (get(g:, 'colors_name') == 'toast' && &background == "light")
-	let $FZF_DEFAULT_OPTS='--color=fg:#4d4d4c,bg:#eeeeee,hl:#d7005f --color=fg+:#4d4d4c,bg+:#e8e8e8,hl+:#d7005f --color=info:#4271ae,prompt:#8959a8,pointer:#d7005f --color=marker:#4271ae,spinner:#4271ae,header:#4271ae'
+	let $FZF_DEFAULT_OPTS='--color=fg:#4d4d4c,bg:#fbf1c7,hl:#d7005f --color=fg+:#4d4d4c,bg+:#fbf1c7,hl+:#d7005f --color=info:#4271ae,prompt:#8959a8,pointer:#d7005f --color=marker:#4271ae,spinner:#4271ae,header:#4271ae'
 	let g:airline_theme='sol'
 	hi! Normal ctermfg=223 ctermbg=235 guibg=#fbf1c7
 	hi! SignColumn guibg=#fbf1c7
 	hi! VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 	hi! LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
+
+	set completeopt-=preview
+	" hi! NormalFloat guibg=#fbf1c7
 	" hi! Normal ctermfg=223 ctermbg=235 guibg=#F5F5F5
 	hi! phpFunction gui=bold guifg=#AA3731
 	hi! Function gui=bold guifg=#AA3731
 	hi! Identifier  guifg=#4D2764
 	hi! phpMethod gui=bold guifg=#AA3731
 	hi! Search guifg=#e9e7df
-	" hi! MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#d61c41 guibg=NONE
-	" autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\->\:\?\(\)\{\}\[\\]]")
 endif
 
 " Dark oceanic material dark theme setting

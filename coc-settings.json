@@ -8,17 +8,22 @@
   "suggest.autoTrigger": "always",
   "suggest.noselect": false,
   "suggest.enablePreselect": false,
+  "suggest.enablePreview": false,
   "tsserver.npm": "/usr/local/bin/npm",
   "suggest.keepCompleteopt": false,
   "coc.source.buffer.enable": false,
   "coc.source.file.enable": false,
   "coc.source.around.enable": false,
-  "diagnostic.refreshOnInsertMode": true,
   "diagnostic.refreshAfterSave": true,
   "tsserver.log":"off" ,
   "suggest.maxCompleteItemCount": 10,
   "suggest.snippetIndicator": "►",
   "diagnostic.checkCurrentLine": true,
-  "coc.preferences.colorSupport": false
+  "coc.preferences.colorSupport": false,
+  "diagnostic.messageTarget": "echo",
+  "suggest.disableKind": true,
+  "suggest.floatEnable": false
 }
+
+
 
