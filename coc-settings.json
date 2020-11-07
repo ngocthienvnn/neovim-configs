@@ -1,4 +1,14 @@
 {
+   "languageserver": {
+      "intelephense": {
+         "command": "intelephense",
+         "args": ["--stdio"],
+         "filetypes": ["php"],
+         "initializationOptions": {
+            "storagePath": "/tmp/intelephense"
+         }
+      }
+},
   "intelephense.diagnostics.undefinedTypes": false,
   "intelephense.diagnostics.undefinedFunctions": false,
   "intelephense.diagnostics.undefinedConstants": false,
