@@ -1,11 +1,13 @@
 set termguicolors
 set background=light
-colorscheme toast 
+colorscheme toast
 
 " Toast Light Theme
 if (get(g:, 'colors_name') == 'toast' && &background == "light")
+	let g:lightline = {
+				\ 'colorscheme': 'solarized',
+				\ }
 	let $FZF_DEFAULT_OPTS='--color=fg:#4d4d4c,bg:#fbf1c7,hl:#d7005f --color=fg+:#4d4d4c,bg+:#fbf1c7,hl+:#d7005f --color=info:#4271ae,prompt:#8959a8,pointer:#d7005f --color=marker:#4271ae,spinner:#4271ae,header:#4271ae'
-	let g:airline_theme='sol'
 	hi! Normal ctermfg=223 ctermbg=235 guibg=#fbf1c7
 	hi! SignColumn guibg=#fbf1c7
 	hi! VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
