@@ -14,7 +14,8 @@ if (get(g:, 'colors_name') == 'toast' && &background == "light")
 	hi! LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 
 	set completeopt-=preview
-	" hi! NormalFloat guibg=#fbf1c7
+	hi Pmenu guifg=#689d6a guibg=#f9f5d7 gui=NONE cterm=NONE
+	hi PmenuSbar guifg=NONE guibg=#f9f5d7 gui=NONE cterm=NONE
 	" hi! Normal ctermfg=223 ctermbg=235 guibg=#F5F5F5
 	hi! phpFunction gui=bold guifg=#AA3731
 	hi! Function gui=bold guifg=#AA3731
@@ -35,8 +36,6 @@ if (get(g:, 'colors_name') == 'oceanic_material')
 	hi!  phpFunction ctermfg=111 guifg=#20B2AA
 	hi!  phpMethod ctermfg=111 guifg=#20B2AA
 
-	" highlight! link phpMethod Green
-
 	" coc preview popup
 	hi! NormalFloat guibg=#052529
 
@@ -54,14 +53,10 @@ if (get(g:, 'colors_name') == 'oceanic_material')
 
 	" sign columns
 	hi! SignColumn guibg=#052529
-	" airline theme
-	let g:airline_theme='solarized_flood'
-	let g:airline#extensions#tagbar#enabled = 0
 
 	hi! VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 	hi! LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 	hi! Visual gui=NONE term=NONE guifg=NONE guibg=#404040
-	" Fzf float window
 
 	let $FZF_DEFAULT_OPTS='--color=fg:#839496,bg:#052529,hl:#1279e0 --color=fg+:#839496,bg+:#052529,hl+:#c4c413 --color=info:#afaf87,prompt:#d7005f,pointer:#af5fff --color=marker:#87ff00,spinner:#af5fff,header:#87afaf'
 endif

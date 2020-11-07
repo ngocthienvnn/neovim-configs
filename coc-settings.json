@@ -13,7 +13,8 @@
             "diagnostics.undefinedConstants": false,
             "diagnostics.undefinedClassConstants": false,
             "diagnostics.undefinedMethods": false,
-            "diagnostics.undefinedProperties": false
+            "diagnostics.undefinedProperties": false,
+            "files.maxSize": 1000000
          }
       }
 },
