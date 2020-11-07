@@ -7,14 +7,14 @@
          "initializationOptions": {
             "storagePath": "/tmp/intelephense"
          },
-         "diagnostics": {
-            "undefinedTypes": false,
-            "undefinedFunctions": false,
-            "undefinedConstants": false,
-            "undefinedClassConstants": false,
-            "undefinedProperties": false
+         "settings": {
+            "diagnostics.undefinedTypes": false,
+            "diagnostics.undefinedFunctions": false,
+            "diagnostics.undefinedConstants": false,
+            "diagnostics.undefinedClassConstants": false,
+            "diagnostics.undefinedMethods": false,
+            "diagnostics.undefinedProperties": false
          }
-
       }
 },
   "suggest.autoTrigger": "always",
