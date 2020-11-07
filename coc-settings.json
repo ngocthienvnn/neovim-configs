@@ -6,15 +6,17 @@
          "filetypes": ["php"],
          "initializationOptions": {
             "storagePath": "/tmp/intelephense"
+         },
+         "diagnostics": {
+            "undefinedTypes": false,
+            "undefinedFunctions": false,
+            "undefinedConstants": false,
+            "undefinedClassConstants": false,
+            "undefinedProperties": false
          }
+
       }
 },
-  "intelephense.diagnostics.undefinedTypes": false,
-  "intelephense.diagnostics.undefinedFunctions": false,
-  "intelephense.diagnostics.undefinedConstants": false,
-  "intelephense.diagnostics.undefinedClassConstants": false,
-  "intelephense.diagnostics.undefinedMethods": false,
-  "intelephense.diagnostics.undefinedProperties": false,
   "suggest.autoTrigger": "always",
   "suggest.noselect": false,
   "suggest.enablePreselect": false,
