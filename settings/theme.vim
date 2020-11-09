@@ -16,6 +16,8 @@ if (get(g:, 'colors_name') == 'toast' && &background == "light")
 	set completeopt-=preview
 	hi Pmenu guifg=#2c6c36 guibg=#f9f5d7 gui=bold cterm=NONE
 	hi PmenuSbar guifg=NONE guibg=#f9f5d7 gui=NONE cterm=NONE
+	hi PmenuSel guifg=#eee8d5 guibg=#586e75 gui=NONE cterm=NONE
+	hi PmenuThumb guifg=NONE guibg=#586e75 gui=NONE cterm=NONE
 	" hi! Normal ctermfg=223 ctermbg=235 guibg=#F5F5F5
 	hi! phpFunction gui=bold guifg=#AA3731
 	hi! Function gui=bold guifg=#AA3731
