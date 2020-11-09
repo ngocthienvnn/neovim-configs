@@ -14,7 +14,7 @@ if (get(g:, 'colors_name') == 'toast' && &background == "light")
 	hi! LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 
 	set completeopt-=preview
-	hi Pmenu guifg=#689d6a guibg=#f9f5d7 gui=NONE cterm=NONE
+	hi Pmenu guifg=#2c6c36 guibg=#f9f5d7 gui=bold cterm=NONE
 	hi PmenuSbar guifg=NONE guibg=#f9f5d7 gui=NONE cterm=NONE
 	" hi! Normal ctermfg=223 ctermbg=235 guibg=#F5F5F5
 	hi! phpFunction gui=bold guifg=#AA3731
