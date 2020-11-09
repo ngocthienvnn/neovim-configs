@@ -26,4 +26,4 @@ Plug 'leafOfTree/vim-vue-plugin'
 Plug 'kdheepak/lazygit.nvim', { 'branch': 'nvim-v0.4.3' }
 Plug 'Yggdroot/indentLine'
 Plug 'jsit/toast.vim'
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
