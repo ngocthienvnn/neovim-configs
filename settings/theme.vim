@@ -28,6 +28,11 @@ endif
 
 " Dark oceanic material dark theme setting
 if (get(g:, 'colors_name') == 'oceanic_material')
+
+
+	set statusline+=%3*
+	set statusline+=%f
+	hi User3 ctermbg=lightblue ctermfg=darkmagenta guibg=#006666 guifg=#CCCCCC
 	let g:oceanic_material_allow_underline = 1
 	hi Pmenu guifg=#859900 guibg=#073642 gui=NONE cterm=NONE
 	hi PmenuSbar guifg=NONE guibg=#073642 gui=NONE cterm=NONE
