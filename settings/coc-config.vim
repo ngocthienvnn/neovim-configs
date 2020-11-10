@@ -138,6 +138,9 @@ function! StatusDiagnostic() abort
   if get(info, 'warning', 0)
     call add(msgs, 'W' . info['warning'])
   endif
+  if get(info, 'hint', 0)
+    call add(msgs, 'H' . info['hint'])
+  endif
   return join(msgs, ' '). ' ' . get(g:, 'coc_status', '')
 endfunction
 set statusline^=%{StatusDiagnostic()} 
