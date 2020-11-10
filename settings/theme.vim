@@ -1,6 +1,6 @@
 set termguicolors
 set background=light
-colorscheme toast
+colorscheme oceanic_material
 
 " Toast Light Theme
 if (get(g:, 'colors_name') == 'toast' && &background == "light")
