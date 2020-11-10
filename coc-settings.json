@@ -3,7 +3,6 @@
       "intelephense": {
          "command": "intelephense",
          "args": ["--stdio"],
-         "trace.server": "verbose",
          "filetypes": ["php"],
          "initializationOptions": {
             "storagePath": "/tmp/intelephense"
