@@ -143,7 +143,7 @@ function! StatusDiagnostic() abort
   endif
   return join(msgs, ' '). ' ' . get(g:, 'coc_status', '')
 endfunction
-set statusline^=%f\ %4l\ %{StatusDiagnostic()} 
+set statusline^=%f\ \ \ \ %{StatusDiagnostic()} 
 " Mappings using CoCList:
 " Show all diagnostics.
 nnoremap <silent> <space>a  :<C-u>CocList diagnostics<cr>
