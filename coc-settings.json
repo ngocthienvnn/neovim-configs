@@ -37,7 +37,8 @@
   "coc.preferences.colorSupport": false,
   "diagnostic.messageTarget": "echo",
   "suggest.disableKind": true,
-  "suggest.floatEnable": false
+  "suggest.floatEnable": false,
+  "coc.preferences.extensionUpdateCheck": "daily"
 }
 
 
