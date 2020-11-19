@@ -1,6 +1,6 @@
 
-autocmd Colorscheme solarized8_flat hi VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
-
+autocmd Colorscheme solarized8_flat hi VertSplit guifg=#003745 cterm=NONE term=NONE ctermfg=NONE ctermbg=NONE
+autocmd Colorscheme solarized8_flat hi LineNR guifg=#004C60 gui=bold guibg=#002B36 ctermfg=146 
 autocmd Colorscheme solarized8_flat  hi phpFunction gui=bold guifg=#8e9e21
 autocmd Colorscheme solarized8_flat  hi Function gui=bold guifg=#8e9e21
 autocmd Colorscheme solarized8_flat  hi phpMethod gui=bold guifg=#8e9e21
