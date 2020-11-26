@@ -1,7 +1,12 @@
 set termguicolors
-set background=dark
-colorscheme solarized8_flat
-
+" set background=dark
+" colorscheme solarized8_flat
+if !empty(expand(glob('~/.vimsettings.vim')))
+	source ~/.vimsettings.vim
+else
+	set background=light
+	colorscheme toast
+endif
 
 if (get(g:, 'colors_name') == 'solarized8_flat' && &background == "dark")
 	source ~/.config/nvim/settings/colorscheme_enhance/solarized8.vim 
