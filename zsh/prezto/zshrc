@@ -17,18 +17,30 @@ fi
 alias gv='gvim'
 alias nv='nvim'
 
-export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
---color=fg:#839496,bg:#002b36,hl:#1279e0
---color=fg+:#839496,bg+:#002b36,hl+:#c4c413
---color=info:#afaf87,prompt:#d7005f,pointer:#af5fff
---color=marker:#87ff00,spinner:#af5fff,header:#87afaf'
+# export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
+# --color=fg:#839496,bg:#002b36,hl:#1279e0
+# --color=fg+:#839496,bg+:#002b36,hl+:#c4c413
+# --color=info:#afaf87,prompt:#d7005f,pointer:#af5fff
+# --color=marker:#87ff00,spinner:#af5fff,header:#87afaf'
 
 # . "/home/thien/.local/share/lscolors.sh"
 
+# # Light theme
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=fg=240
+# ZSH_HIGHLIGHT_STYLES[precommand]=fg=069
+# ZSH_HIGHLIGHT_STYLES[command]=fg=069
+# ZSH_HIGHLIGHT_STYLES[alias]=fg=063
+# zstyle ':prezto:module:git:info:branch' format "%F{#0e469a}%b%f"
+# export PROMPT='%F{135}%n%f@%F{166}%m%f %F{black}%~%f ${git_info:+${(e)git_info[prompt]}}$ ' 
+
+# Dark theme
+export PROMPT='%F{135}%n%f@%F{166}%m%f %F{green}%~%f ${git_info:+${(e)git_info[prompt]}}$ '
 export PATH="$(yarn global bin):$PATH"
+
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias ga='git add -A'
 alias gs='git status'
+
