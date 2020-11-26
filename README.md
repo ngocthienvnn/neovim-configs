@@ -1,7 +1,12 @@
 ## Neovim
-Neovim Configuration for web development, the default theme is oceanic-material with custom background/foreground color: #002b36
-![image](https://user-images.githubusercontent.com/14000527/96083584-a1d11300-0ee7-11eb-8f59-27e2d05dce48.png)
+Neovim Configuration for web development, the default colorscheme is toast light with custom background/foreground color: 
+### Toast Light Colorcheme
+![image](https://user-images.githubusercontent.com/14000527/100315021-824eff00-2fea-11eb-84ef-f912e1b8f3d5.png)
 
+### Solarized_flat8 Dark Colorcheme
+![image](https://user-images.githubusercontent.com/14000527/100315335-0e612680-2feb-11eb-948a-d72ec456b5ad.png)
+
+Create  ~/.vimsettings.vim to change colorscheme.
 
 ## 1. Installation
 1. Follow this link to install vim-plug: https://github.com/junegunn/vim-plug
@@ -18,7 +23,6 @@ Run the command `fc-cache -fv` to manually rebuild the font cache
 Add:  `font_family  <font-name>` and  `bold_font <font-name>` into ~/.config/kitty/kitty.conf to apply .
 ### c. Install Coc.nvim Plugins
 Open Neovim, enter those commands to install Coc plugins:
- + CocInstall coc-phpls(Php)
  + CocInstall coc-vetur(Vue)
  + CocInstall coc-json
  + CocInstall coc-tsserver(Javascript)
@@ -33,8 +37,7 @@ Open Neovim, enter those commands to install Coc plugins:
 + gruvbox-material
 + splitjoin.vim
 + vim-solarized8
-+ tcomment_vim:
-+ vim-airline-themes
++ tcomment_vim
 + vim-surround
 + auto-pairs
 + targets.vim
@@ -42,11 +45,9 @@ Open Neovim, enter those commands to install Coc plugins:
 + vim-airline
 + vim-easymotion
 + ag.vim
-+ gruvbox-material
 + vdebug
 + vim-devicons
 + chadtree
-+ oceanic-material
 
 ## 3. Shortcuts
 ### TComment
