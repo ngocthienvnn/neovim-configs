@@ -30,7 +30,7 @@
   "coc.source.buffer.enable": false,
   "coc.source.file.enable": false,
   "coc.source.around.enable": false,
-  "diagnostic.refreshAfterSave": false,
+	"javascript.suggestionActions.enabled": false,
   "suggest.maxCompleteItemCount": 10,
   "suggest.snippetIndicator": "►",
   "diagnostic.checkCurrentLine": true,
