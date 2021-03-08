@@ -14,5 +14,9 @@ hi! Function gui=bold guifg=#AA3731
 hi! Identifier  guifg=#4D2764
 hi! phpMethod gui=bold guifg=#AA3731
 hi! Search guifg=#e9e7df
+hi! Special gui=bold
+
+autocmd Colorscheme toast hi! MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#006fd1 guibg=NONE
+autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\->\:\?\(\)\{\}\[\\]]")
 
 au VimEnter * so ~/.config/nvim/settings/colorscheme_enhance/toast.vim
