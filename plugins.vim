@@ -21,3 +21,4 @@ Plug 'glepnir/oceanic-material'
 Plug 'leafOfTree/vim-vue-plugin'
 Plug 'Yggdroot/indentLine'
 Plug 'jsit/toast.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
