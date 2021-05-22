@@ -1,9 +1,9 @@
 
 autocmd Colorscheme solarized8_flat hi VertSplit guifg=#003745 cterm=NONE term=NONE ctermfg=NONE ctermbg=NONE
 autocmd Colorscheme solarized8_flat hi LineNR guifg=#004C60 gui=bold guibg=#002B36 ctermfg=146 
-autocmd Colorscheme solarized8_flat  hi phpFunction gui=bold guifg=#8e9e21
-autocmd Colorscheme solarized8_flat  hi Function gui=bold guifg=#8e9e21
-autocmd Colorscheme solarized8_flat  hi phpMethod gui=bold guifg=#8e9e21
+autocmd Colorscheme solarized8_flat  hi phpFunction gui=bold guifg=#7d8c1d
+autocmd Colorscheme solarized8_flat  hi Function gui=bold guifg=#7d8c1d
+autocmd Colorscheme solarized8_flat  hi phpMethod gui=bold guifg=#7d8c1d
 
 autocmd Colorscheme solarized8_flat  hi jsBrackets guifg=#cb4b16
 autocmd Colorscheme solarized8_flat  hi jsBraces guifg=#cb4b16
