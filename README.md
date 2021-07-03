@@ -9,9 +9,13 @@ Neovim Configuration for web development, the default colorscheme is toast light
 Create  ~/.vimsettings.vim to change colorscheme.
 
 ## 1. Installation
-1. Follow this link to install vim-plug: https://github.com/junegunn/vim-plug
-2. Clone this repo into `~/.config/nvim folder`. `git clone git@github.com:ngocthienvnn/neovim-configs.git ~/.config/nvim`
-3. Open neovim , use `:PlugInstall` to install plugins
+1. Prerequisite
+ + NodeJS
+ + Yarn
+ + Pip3
+2. Follow this link to install vim-plug: https://github.com/junegunn/vim-plug
+3. Clone this repo into `~/.config/nvim folder`. `git clone git@github.com:ngocthienvnn/neovim-configs.git ~/.config/nvim`
+4. Open neovim , use `:PlugInstall` to install plugins
 ### a. Kitty configuration:
 - Download [Kitty](https://sw.kovidgoyal.net/kitty/index.html)
 - Command: `cp ~/.config/nvim/kitty/kitty.conf ~/.config/kitty/`
