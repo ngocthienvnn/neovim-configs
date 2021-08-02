@@ -36,7 +36,8 @@
   "diagnostic.messageTarget": "echo",
   "suggest.disableKind": true,
   "suggest.floatEnable": false,
-  "coc.preferences.extensionUpdateCheck": "daily"
+  "coc.preferences.extensionUpdateCheck": "daily",
+	"javascript.suggestionActions.enabled": false
 }
 
 
