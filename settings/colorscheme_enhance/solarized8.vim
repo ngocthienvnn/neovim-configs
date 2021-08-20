@@ -13,11 +13,11 @@ autocmd Colorscheme solarized8_flat hi CursorLine cterm=NONE gui=NONE
 autocmd Colorscheme solarized8_flat hi Visual gui=NONE term=NONE guifg=NONE guibg=#243940
 autocmd Colorscheme solarized8_flat hi Search  guifg=#475b0a guibg=#cccc00
 
-autocmd Colorscheme solarized8_flat hi statusline guibg=#7f8e1e 
+autocmd Colorscheme solarized8_flat hi statusline guibg=#a5b454 
 
 
 " autocmd Colorscheme solarized8_flat hi Pmenu guifg=#8e9e21  gui=bold cterm=NONE
-autocmd Colorscheme solarized8_flat hi PmenuSel guifg=#ff8c15  gui=bold cterm=NONE  guibg=#32555e
+autocmd Colorscheme solarized8_flat hi PmenuSel guifg=#a5b454  gui=bold cterm=NONE  guibg=#32555e
 
 autocmd Colorscheme solarized8_flat hi! MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#cb4b16 guibg=NONE
 autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\->\:\?\(\)\{\}\[\\]]")
