@@ -4,8 +4,8 @@ hi! SignColumn guibg=#eeeeee
 hi! VertSplit term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 hi! LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 
-hi Pmenu guifg=#2c6c36 guibg=#f9f5d7 gui=bold cterm=NONE
-hi PmenuSbar guifg=NONE guibg=#f9f5d7 gui=NONE cterm=NONE
+hi Pmenu guifg=#2c6c36 guibg=#faf7df gui=bold cterm=NONE
+hi PmenuSbar guifg=NONE guibg=#faf7df gui=NONE cterm=NONE
 hi PmenuSel guifg=#2c6c36 guibg=#ffdfba gui=NONE gui=bold cterm=NONE
 hi PmenuThumb guifg=NONE guibg=#586e75 gui=NONE cterm=NONE
 " hi! Normal ctermfg=223 ctermbg=235 guibg=#F5F5F5
