@@ -16,6 +16,8 @@ hi! phpMethod gui=bold guifg=#AA3731
 hi! Search guifg=#e9e7df
 hi! Special gui=bold
 
+hi! IncSearch guifg=Grey gui=standout cterm=standout
+
 autocmd Colorscheme toast hi! MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#006fd1 guibg=NONE
 autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\->\:\?\(\)\{\}\[\\]]")
 
