@@ -120,3 +120,8 @@ nmap <F12> :TagbarToggle<CR>
 :inoremap <C-S>     <C-O>:update<CR>
 
 :nnoremap <F2> :source $MYVIMRC<CR>
+
+
+nnoremap <silent> <space>q  :<C-u>CocDiagnostics<CR>
+nnoremap <silent> <space>1  :<C-u>CocOutline<CR>
+nnoremap <silent> <space>2  :<C-u>Vista<CR>

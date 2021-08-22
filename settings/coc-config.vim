@@ -184,4 +184,3 @@ set statusline =
 set statusline^=%f\ \ \ \ %{StatusDiagnostic()} 
 
 
-nnoremap <silent> <space>q  :<C-u>CocDiagnostics<CR>
