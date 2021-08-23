@@ -13,7 +13,7 @@ hi! phpFunction gui=bold guifg=#AA3731
 hi! Function gui=bold guifg=#AA3731
 hi! Identifier  guifg=#4D2764
 hi! phpMethod gui=bold guifg=#AA3731
-hi! Search guifg=#e9e7df
+hi! Search guifg=#d1cfc8
 hi! Special gui=bold
 
 hi! IncSearch guifg=Grey gui=standout cterm=standout
