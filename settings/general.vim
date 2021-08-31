@@ -20,6 +20,7 @@ set clipboard=unnamedplus
 set foldmethod=manual
 
 " let g:javascript_plugin_jsdoc = 1
+autocmd BufNewFile,BufRead *.blade.php set filetype=blade
 let g:mta_filetypes = {
       \ 'html' : 1,
       \ 'blade' : 1,
