@@ -11,7 +11,7 @@ autocmd Colorscheme solarized8_flat  hi jsBraces guifg=#cb4b16
 
 autocmd Colorscheme solarized8_flat hi CursorLine cterm=NONE gui=NONE
 autocmd Colorscheme solarized8_flat hi Visual gui=NONE term=NONE guifg=NONE guibg=#243940
-autocmd Colorscheme solarized8_flat hi Search  guifg=#475b0a guibg=#cccc00
+autocmd Colorscheme solarized8_flat hi Search  guifg=#4f6066 guibg=#cccc00
 
 autocmd Colorscheme solarized8_flat hi statusline guibg=#7b940e 
 
