@@ -68,8 +68,9 @@
       ["expanded?", "collapse", "expand"],
       "open"
     ],
-    "o": ["wait", "expanded?", "collapse", "expand", "open"],
+    /* "o": ["wait", "expanded?", "collapse", "expand", "open"], */
     /* "<cr>": ["wait", "expandable?", "cd", "open"], */
+    "o": ["wait", "expandable?", "expand", "open"],
     "<cr>": ["wait", "expandable?", "expand", "open"],
     "e": "open",
     "s": "open:split",
