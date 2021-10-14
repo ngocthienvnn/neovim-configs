@@ -17,7 +17,7 @@ autocmd Colorscheme solarized8_flat hi statusline guibg=#7b940e
 
 
 " autocmd Colorscheme solarized8_flat hi Pmenu guifg=#8e9e21  gui=bold cterm=NONE
-autocmd Colorscheme solarized8_flat hi PmenuSel guifg=#a5b454  gui=bold cterm=NONE  guibg=#32555e
+autocmd Colorscheme solarized8_flat hi PmenuSel guifg=#94a24b  gui=bold cterm=NONE  guibg=#32555e
 
 autocmd Colorscheme solarized8_flat hi! MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#cb4b16 guibg=NONE
 autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\->\:\?\(\)\{\}\[\\]]")
