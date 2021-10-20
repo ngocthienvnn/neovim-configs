@@ -14,7 +14,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'kana/vim-textobj-user'
 Plug 'rking/ag.vim'
 Plug 'wellle/targets.vim'
-Plug 'vim-vdebug/vdebug'
+" Plug 'vim-vdebug/vdebug'
 " Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
 Plug 'glepnir/oceanic-material'
 Plug 'Yggdroot/indentLine'
