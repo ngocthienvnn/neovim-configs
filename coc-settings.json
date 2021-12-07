@@ -38,7 +38,7 @@
   "suggest.floatEnable": false,
   "coc.preferences.extensionUpdateCheck": "daily",
 	"javascript.suggestionActions.enabled": false,
-
+   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
 	"explorer.icon.enableNerdfont": true,
 	"explorer.git.enable": false,
 	"explorer.sources": [

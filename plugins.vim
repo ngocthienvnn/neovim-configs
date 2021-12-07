@@ -21,4 +21,4 @@ Plug 'Yggdroot/indentLine'
 Plug 'jsit/toast.vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 " Plug 'ryanoasis/vim-devicons'
-
+Plug 'itchyny/lightline.vim'
