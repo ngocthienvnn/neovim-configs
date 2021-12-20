@@ -1,6 +1,6 @@
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'tomtom/tcomment_vim'
+Plug 'b3nj5m1n/kommentary'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'easymotion/vim-easymotion'
 Plug 'AndrewRadev/splitjoin.vim'
