@@ -2,7 +2,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'b3nj5m1n/kommentary'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'easymotion/vim-easymotion'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'liuchengxu/vista.vim'
 Plug 'tpope/vim-surround'
@@ -23,4 +22,5 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 " Plug 'ryanoasis/vim-devicons'
 Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'ggandor/lightspeed.nvim'
 let g:coc_global_extensions = ['coc-json', 'coc-explorer', 'coc-tsserver', 'coc-blade']

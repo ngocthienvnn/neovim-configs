@@ -16,7 +16,7 @@ hi! jsBrackets guifg=#cb4b16
 hi! jsBraces guifg=#cb4b16
 hi! CursorLine cterm=NONE gui=NONE
 hi! Visual gui=NONE term=NONE guifg=NONE guibg=#243940
-hi! Search  guifg=#e64a28 guibg=#224e54 gui=bold
+hi! Search  guifg=#d8cf7e guibg=#224e54 gui=bold
 hi! link javascriptFuncName Type
 hi! link jsFuncCall jsFuncName
 hi! link javascriptFunction Statement

@@ -75,8 +75,8 @@ nnoremap <silent> ,x :bn<CR>
 " Create window splits easier. The default
 " way is Ctrl-w,v and Ctrl-w,s. I remap
 " this to vv and ss
-nnoremap <silent> vv <C-w>v
-nnoremap <silent> ss <C-w>s
+nnoremap <silent> ,vv <C-w>v
+nnoremap <silent> ,ss <C-w>s
 
 
 "Clear current search highlight by double tapping //
@@ -102,8 +102,8 @@ nmap ` '
 " ============================
 " SplitJoin plugin
 " ============================
-nmap sj :SplitjoinSplit<cr>
-nmap sk :SplitjoinJoin<cr>
+nmap ,sj :SplitjoinSplit<cr>
+nmap ,sk :SplitjoinJoin<cr>
 
 
 noremap <silent> <M-Left> :vertical resize +5<CR>
