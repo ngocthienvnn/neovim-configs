@@ -75,8 +75,8 @@ nnoremap <silent> ,x :bn<CR>
 " Create window splits easier. The default
 " way is Ctrl-w,v and Ctrl-w,s. I remap
 " this to vv and ss
-nnoremap <silent> ,vv <C-w>v
-nnoremap <silent> ,ss <C-w>s
+nnoremap <silent> vv <C-w>v
+nnoremap <silent> ss <C-w>s
 
 
 "Clear current search highlight by double tapping //
@@ -102,8 +102,8 @@ nmap ` '
 " ============================
 " SplitJoin plugin
 " ============================
-nmap ,sj :SplitjoinSplit<cr>
-nmap ,sk :SplitjoinJoin<cr>
+nmap sj :SplitjoinSplit<cr>
+nmap sk :SplitjoinJoin<cr>
 
 
 noremap <silent> <M-Left> :vertical resize +5<CR>
@@ -121,7 +121,10 @@ nmap <F12> :TagbarToggle<CR>
 
 :nnoremap <F2> :source $MYVIMRC<CR>
 
-
 nnoremap <silent> <space>q  :<C-u>CocDiagnostics<CR>
 nnoremap <silent> <space>1  :<C-u>CocOutline<CR>
 nnoremap <silent> <space>2  :<C-u>Vista<CR>
+
+nmap <expr> ,w reg_recording() . reg_executing() == "" ? "<Plug>Lightspeed_S" : "S"
+nmap <expr> ,s reg_recording() . reg_executing() == "" ? "<Plug>Lightspeed_s" : "s"
+" nmap <silent> ,s <Plug>Lightspeed_s<CR>
