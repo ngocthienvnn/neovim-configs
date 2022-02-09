@@ -39,22 +39,10 @@ hi! link jsNoise jsParens
 
 " autocmd Colorscheme solarized8_flat hi Pmenu guifg=#8e9e21  gui=bold cterm=NONE
 hi! PmenuSel guifg=#bb9d07  gui=bold cterm=NONE  guibg=#32555e
+hi! DiagnosticError guifg=#ff6700
 
 " hi! MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#cb4b16 guibg=NONE
 " autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\:\?\(\)\{\}\[\\]]")
 
 " autocmd Colorscheme solarized8_flat hi SignColumn guibg=#eeeeee
 let $FZF_DEFAULT_OPTS='--color=fg:#77A5B1,bg:#002b36,hl:#1279e0 --color=fg+:#77A5B1,bg+:#002b36,hl+:#c4c413 --color=info:#afaf87,prompt:#d7005f,pointer:#af5fff --color=marker:#87ff00,spinner:#af5fff,header:#87afaf'
-
-let g:lightline = {
-      \ 'colorscheme': 'solarized',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'cocstatus', 'currentfunction', 'readonly', 'filename', 'modified' ] ],
-			\   'right': [   ['fileformat', 'fileencoding', 'filetype' ] ]
-      \ },
-      \ 'component_function': {
-      \   'cocstatus': 'coc#status',
-      \   'currentfunction': 'CocCurrentFunction'
-      \ },
-      \ }

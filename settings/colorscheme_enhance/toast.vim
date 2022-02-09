@@ -20,18 +20,4 @@ hi! IncSearch guifg=Grey gui=standout cterm=standout
 
 autocmd Colorscheme toast hi! MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#006fd1 guibg=NONE
 autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\->\:\?\(\)\{\}\[\\]]")
-
-let g:lightline = {
-      \ 'colorscheme': 'Tomorrow',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'cocstatus', 'currentfunction', 'readonly', 'filename', 'modified' ] ],
-			\   'right': [   ['fileformat', 'fileencoding', 'filetype' ] ]
-      \ },
-      \ 'component_function': {
-      \   'cocstatus': 'coc#status',
-      \   'currentfunction': 'CocCurrentFunction'
-      \ },
-      \ }
-
 au VimEnter * so ~/.config/nvim/settings/colorscheme_enhance/toast.vim
