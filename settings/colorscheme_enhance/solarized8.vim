@@ -40,6 +40,7 @@ hi! link jsNoise jsParens
 " autocmd Colorscheme solarized8_flat hi Pmenu guifg=#8e9e21  gui=bold cterm=NONE
 hi! PmenuSel guifg=#bb9d07  gui=bold cterm=NONE  guibg=#32555e
 hi! DiagnosticError guifg=#ff6700
+hi! GitGutterDelete guifg=#ff6700
 
 " hi! MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#cb4b16 guibg=NONE
 " autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\:\?\(\)\{\}\[\\]]")
