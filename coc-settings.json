@@ -36,19 +36,20 @@
   "suggest.disableKind": true,
   "suggest.floatEnable": false,
   "coc.preferences.extensionUpdateCheck": "daily",
-	"javascript.suggestionActions.enabled": false,
-   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
-	"explorer.icon.enableNerdfont": true,
-	"explorer.git.enable": false,
-	"explorer.sources": [
-		{
-			"name": "file",
-			"expand": true
-		}
-	],
+  "javascript.suggestionActions.enabled": false,
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.git.enable": false,
+  "explorer.sources": [
+     {
+        "name": "file",
+        "expand": true
+     }
+  ],
 
   "explorer.keyMappings.global": {
-    "o": ["wait", "expandable?", "expand", "open"],
-    "<cr>": ["wait", "expandable?", "expand", "open"]
+     "o": ["wait", "expandable?", "expand", "open"],
+     "<cr>": ["wait", "expandable?", "expand", "open"]
   }
+
 }
