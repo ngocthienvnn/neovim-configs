@@ -1,11 +1,17 @@
 lua << END
-require('lualine').setup({
-options = {
-		theme = 'everforest'
+local curBg = vim.opt.background:get()
+local lualineOptions = {
+	sections = {
+		lualine_b = {'diff', 'diagnostics'},
 	},
-sections = {
-
-	lualine_b = {'diff', 'diagnostics'},
+	options = {
+		theme = 'everforest'
 	}
-})
+}
+
+if curBg == 'light' then
+	lualineOptions['options']['theme'] = 'Tomorrow';
+end
+
+require('lualine').setup(lualineOptions)
 END
