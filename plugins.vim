@@ -10,7 +10,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'
 Plug 'Raimondi/delimitMate'
 Plug 'kana/vim-textobj-user'
-Plug 'rking/ag.vim'
 Plug 'wellle/targets.vim'
 Plug 'vim-vdebug/vdebug'
 Plug 'glepnir/oceanic-material'
