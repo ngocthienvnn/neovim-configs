@@ -128,3 +128,7 @@ nnoremap <silent> <space>2  :<C-u>Vista<CR>
 nmap <expr> ,w reg_recording() . reg_executing() == "" ? "<Plug>Lightspeed_S" : "S"
 nmap <expr> ,s reg_recording() . reg_executing() == "" ? "<Plug>Lightspeed_s" : "s"
 " nmap <silent> ,s <Plug>Lightspeed_s<CR>
+
+" ripgrep
+nnoremap <leader>g :Grepper -tool rg<cr>
+nnoremap <leader>G :Grepper -tool rg -buffers<cr>
