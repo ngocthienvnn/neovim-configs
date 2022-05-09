@@ -17,8 +17,9 @@ function fish_prompt --description 'Write out the prompt'
 
 
     # PWD
-    __terlar_git_prompt
-    fish_hg_prompt
+     __terlar_git_prompt
+		set -g fish_color_git_clean blue -o
+    # fish_hg_prompt
     echo
 
     if not test $last_status -eq 0
