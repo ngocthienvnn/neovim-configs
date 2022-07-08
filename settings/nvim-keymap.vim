@@ -129,6 +129,10 @@ nmap <expr> ,w reg_recording() . reg_executing() == "" ? "<Plug>Lightspeed_S" : 
 nmap <expr> ,s reg_recording() . reg_executing() == "" ? "<Plug>Lightspeed_s" : "s"
 " nmap <silent> ,s <Plug>Lightspeed_s<CR>
 
-" ripgrep
-nnoremap <leader>g :Grepper -tool rg<cr>
-nnoremap <leader>G :Grepper -tool rg -buffers<cr>
+" spectre
+nnoremap <leader>S <cmd>lua require('spectre').open()<CR>
+"search current word
+nnoremap <leader>sw <cmd>lua require('spectre').open_visual({select_word=true})<CR>
+vnoremap <leader>s <esc>:lua require('spectre').open_visual()<CR>
+"  search in current file
+nnoremap <leader>sp viw:lua require('spectre').open_file_search()<cr>
