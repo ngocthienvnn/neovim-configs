@@ -50,3 +50,6 @@ endfunction
 
 let g:loaded_python_provider = 0
 
+let g:grepper = extend(get(g:, 'grepper', {}), {
+      \ 'rg': {'grepprg': 'rg -H -i --no-heading --vimgrep --sort-files $* .'},
+      \ })

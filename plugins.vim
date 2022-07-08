@@ -20,6 +20,6 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'airblade/vim-gitgutter'
 Plug 'ggandor/lightspeed.nvim'
 Plug 'mhinz/vim-grepper'
-Plug 'sainnhe/everforest'
+Plug 'kevinhwang91/nvim-bqf'
 
 let g:coc_global_extensions = ['coc-json', 'coc-explorer', 'coc-tsserver', 'coc-blade']
