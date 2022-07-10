@@ -12,7 +12,6 @@ Plug 'kana/vim-textobj-user'
 Plug 'wellle/targets.vim'
 " Plug 'vim-vdebug/vdebug'
 Plug 'glepnir/oceanic-material'
-Plug 'Yggdroot/indentLine'
 Plug 'jsit/toast.vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'nvim-lualine/lualine.nvim'
@@ -22,5 +21,6 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'windwp/nvim-spectre'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'numToStr/Comment.nvim'
+Plug 'lukas-reineke/indent-blankline.nvim'
 
 let g:coc_global_extensions = ['coc-json', 'coc-explorer', 'coc-tsserver', 'coc-blade']
