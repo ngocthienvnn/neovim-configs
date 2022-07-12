@@ -49,5 +49,4 @@ function! CocCurrentFunction()
 endfunction
 
 let g:loaded_python_provider = 0
-let g:ctrlsf_backend = 'rg'
-let g:ctrlsf_default_view_mode = 'compact'
+

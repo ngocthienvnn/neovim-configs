@@ -22,5 +22,6 @@ Plug 'windwp/nvim-spectre'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'numToStr/Comment.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
-
+Plug 'puremourning/vimspector'
 let g:coc_global_extensions = ['coc-json', 'coc-explorer', 'coc-tsserver', 'coc-blade']
+let g:vimspector_enable_mappings = 'HUMAN'

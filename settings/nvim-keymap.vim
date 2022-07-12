@@ -136,3 +136,6 @@ nnoremap <leader>sw <cmd>lua require('spectre').open_visual({select_word=true})<
 vnoremap <leader>s <esc>:lua require('spectre').open_visual()<CR>
 "  search in current file
 nnoremap <leader>sp viw:lua require('spectre').open_file_search()<cr>
+nmap <Leader>di <Plug>VimspectorBalloonEval
+" for visual mode, the visually selected text
+xmap <Leader>di <Plug>VimspectorBalloonEval
