@@ -17,6 +17,7 @@ hi! Search guifg=#d1cfc8
 hi! Special gui=bold
 
 hi! IncSearch guifg=Grey gui=standout cterm=standout
+hi! CocUnusedHighLight guifg=#625f57  cterm=underline guibg=#d3d3d2 
 
 autocmd Colorscheme toast hi! MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#006fd1 guibg=NONE
 autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\->\:\?\(\)\{\}\[\\]]")

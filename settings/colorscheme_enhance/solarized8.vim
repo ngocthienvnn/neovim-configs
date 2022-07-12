@@ -42,6 +42,7 @@ hi! PmenuSel guifg=#bb9d07  gui=bold cterm=NONE  guibg=#32555e
 hi! DiagnosticError guifg=#ff6700
 hi! GitGutterDelete guifg=#ff6700
 hi! CocErrorSign guifg=#c92f2f
+hi! CocUnusedHighLight guibg=#33444a
 
 " hi! MyCustomBraces cterm=bold ctermfg=12 ctermbg=6 gui=bold guifg=#cb4b16 guibg=NONE
 " autocmd WinEnter,VimEnter * silent! call matchadd("MyCustomBraces", "[\:\?\(\)\{\}\[\\]]")

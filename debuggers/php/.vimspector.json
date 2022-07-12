@@ -1,0 +1,30 @@
+{
+  "configurations": {
+    "Listen for XDebug": {
+      "adapter": "vscode-php-debug",
+      "filetypes": [ "php" ],
+      "configuration": {
+        "name": "Listen for XDebug",
+        "type": "php",
+        "request": "launch",
+        "port": 9003,
+        "stopOnEntry": false,
+        "pathMappings": {
+          "/var/www/html": "${workspaceRoot}"
+        }
+      }
+    },
+    "Launch currently open script": {
+      "adapter": "vscode-php-debug",
+      "filetypes": [ "php" ], 
+      "configuration": {
+        "name": "Launch currently open script",
+        "type": "php",
+        "request": "launch",
+        "program": "${file}",
+        "cwd": "${fileDirname}",
+        "port": 9003
+      }
+    }
+  }
+}
