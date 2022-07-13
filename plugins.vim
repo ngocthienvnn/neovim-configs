@@ -10,7 +10,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'Raimondi/delimitMate'
 Plug 'kana/vim-textobj-user'
 Plug 'wellle/targets.vim'
-" Plug 'vim-vdebug/vdebug'
 Plug 'glepnir/oceanic-material'
 Plug 'jsit/toast.vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
