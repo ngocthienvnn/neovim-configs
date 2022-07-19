@@ -12,7 +12,8 @@ local lualineOptions = {
 if curBg == 'light' then
 	lualineOptions['options']['theme'] = 'Tomorrow';
 end
-require('lualine').setup(lualineOptions)
 
+require('lualine').setup(lualineOptions)
 require('Comment').setup()
+
 END

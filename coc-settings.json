@@ -40,6 +40,7 @@
   "coc.preferences.currentFunctionSymbolAutoUpdate": true,
   "explorer.icon.enableNerdfont": true,
   "explorer.git.enable": false,
+  "diagnostic.hintSign": "",
   "explorer.sources": [
      {
         "name": "file",
